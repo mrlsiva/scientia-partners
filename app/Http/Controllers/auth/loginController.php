@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class loginController
 {
+    public function login(Request $request)
+    {
+        return view('login');
+    }
+
     public function sign_in(Request $request)
     {
-        return view('sign_in');
+        return "Login Check";
     }
 }
