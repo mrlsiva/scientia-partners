@@ -1836,6 +1836,48 @@ p.m-300, p.m-400 {
 .wizard-form-field .error input::placeholder,  .wizard-form-field .error select::placeholder {
     color: red;
 }
+.proposal-tabel {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  z-index: 999;
+  /* cursor: not-allowed; */
+}
+.overlay p {
+  text-align: center; 
+  max-width: 340px;
+}
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  padding: 8px 16px;
+  background-color: #0A66C2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actions button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
 /*---------------------------------------------------- */
 /*wizard area*/
 /*----------------------------------------------------*/
