@@ -48,7 +48,7 @@
 										<i class="feather-chevron-up fs-12 ms-1"></i>
 									</div>
 								</div>
-
+								
 								<div class="fs-12 text-muted">interest secured out of  <span class="fw-bold text-dark">$000</span></div>
 							</div>
 						</div>
@@ -77,8 +77,8 @@
 										<i class="feather-chevron-up fs-12 ms-1"></i>
 									</div>
 								</div>
-
-								<div class="fs-12 text-muted">Lorem Ipsum   <span class="fw-bold text-dark">$000</span></div>
+								
+								<div class="fs-12 text-muted">Lorem Ipsum   <span class="fw-bold text-dark">000</span></div>
 							</div>
 						</div>
 					</div>
@@ -88,7 +88,6 @@
 				<div class="card stretch stretch-full">
 					<div class="card-header">
 						<h5 class="card-title">Investor </h5>
-
 					</div>
 					<div class="card-body custom-card-action p-0">
 						<div class="table-responsive">
@@ -135,20 +134,17 @@
 										<td> - </td>
 										<td> - </td>
 										<td class="text-end"> - </td>
-									</tr>
-
+									</tr> 
 								</tbody>
 							</table>
 						</div>
-					</div>
-
+					</div>  
 				</div>
 			</div>
 			<div class="col-xxl-12">
 				<div class="card stretch stretch-full">
 					<div class="card-header">
 						<h5 class="card-title">Prospects </h5>
-
 					</div>
 					<div class="card-body custom-card-action p-0">
 						<div class="table-responsive">
@@ -186,21 +182,17 @@
 										<td> - </td>
 										<td class="text-end"> - </td>
 									</tr>
-
 								</tbody>
 							</table>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
 		<div class="d-flex justify-content-between align-items-center mb-4">
 			<div class="me-4">
-				<h2 class="fs-16 fw-bold mb-1">Service Requests</h2>
-				<!-- <div class="fs-12 text-muted text-truncate-1-line">Total Storage 100 GB (Free space 53.64 GB)</div> -->
+				<h2 class="fs-16 fw-bold mb-1">Service Requests</h2> 
 			</div>
-			<!-- <a href="javascript:void(0);" class="btn btn-sm btn-light-brand">View More</a> -->
 		</div>
 		<div class="row">
 			<div class="col-xxl-12">
@@ -242,7 +234,6 @@
 							</table>
 						</div>
 					</div>
-
 				</div>
 			</div>
 			<div class="col-xxl-12">
@@ -280,7 +271,6 @@
 							</table>
 						</div>
 					</div>
-
 				</div>
 			</div>
 			<div class="col-xxl-12">
