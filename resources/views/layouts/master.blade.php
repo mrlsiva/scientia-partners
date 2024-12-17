@@ -56,12 +56,12 @@
 	                            </span>
 	                        </a>
 	                        <ul class="nxl-submenu">
-	                            <li class="nxl-item"><a class="nxl-link" href="">Deck Creation/ Upload</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Deck Designer Templates</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Deck Review</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Deck Lock/ Release</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Outreach Email</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Your CV for Investor View</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.pitch_decks.create')}}">Deck Creation/ Upload</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.pitch_decks.template')}}">Deck Designer Templates</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.pitch_decks.review')}}">Deck Review</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.pitch_decks.status')}}">Deck Lock/ Release</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.pitch_decks.outreach_email')}}">Outreach Email</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.pitch_decks.cv')}}">Your CV for Investor View</a></li>
 	                        </ul>
 	                    </li>
 	                    <li class="nxl-item nxl-hasmenu">
@@ -70,9 +70,9 @@
 	                            <span class="nxl-mtext">Investor Database</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
 	                        </a>
 	                        <ul class="nxl-submenu">
-	                            <li class="nxl-item"><a class="nxl-link" href="">Sample (Free)</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Full Database (Curated)</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Addition to DB</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.databases.free_db')}}">Sample (Free)</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.databases.full_db')}}">Full Database (Curated)</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.databases.addition_to_db')}}">Addition to DB</a></li>
 	                           
 	                        </ul>
 	                    </li>
@@ -82,32 +82,32 @@
 	                            <span class="nxl-mtext">Scientia Library</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
 	                        </a>
 	                        <ul class="nxl-submenu">
-	                            <li class="nxl-item">
+	                            <li class="nxl-item nxl-hasmenu">
 	                                <a href="javascript:void(0);" class="nxl-link">
 	                                    <span class="nxl-micon"><i class="feather-folder"></i></span>
 	                                    <span class="nxl-mtext">Startup Docs</span>
 	                                    <span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
 	                                </a>
 	                                <ul class="nxl-submenu">
-	                                    <li class="nxl-item"><a class="nxl-link" href="">Deck Designer</a></li>
-	                                    <li class="nxl-item"><a class="nxl-link" href="">Deck Templates</a></li>
-	                                    <li class="nxl-item"><a class="nxl-link" href="">Financial Modeling </a></li>
+	                                    <li class="nxl-item"><a class="nxl-link" href="{{route('founders.scientia_libraries.deck_designer')}}">Deck Designer</a></li>
+	                                    <li class="nxl-item"><a class="nxl-link" href="{{route('founders.scientia_libraries.deck_template')}}">Deck Templates</a></li>
+	                                    <li class="nxl-item"><a class="nxl-link" href="{{route('founders.scientia_libraries.financal_modeling')}}">Financial Modeling </a></li>
 	                                </ul>
 	                            </li>
-	                            <li class="nxl-item">
+	                            <li class="nxl-item nxl-hasmenu">
 	                                <a href="javascript:void(0);" class="nxl-link">
 	                                    <span class="nxl-micon"><i class="feather-book"></i></span>
 	                                    <span class="nxl-mtext">Essential Readings</span>
 	                                    <span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
 	                                </a>
 	                                <ul class="nxl-submenu">
-	                                    <li class="nxl-item"><a class="nxl-link" href="">Blogs </a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Podcasts</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">YT</a></li>
+	                                    <li class="nxl-item"><a class="nxl-link" href="{{route('founders.scientia_libraries.blog')}}">Blogs </a></li>
+	                            		<li class="nxl-item"><a class="nxl-link" href="{{route('founders.scientia_libraries.podcast')}}">Podcasts</a></li>
+	                            		<li class="nxl-item"><a class="nxl-link" href="{{route('founders.scientia_libraries.YT')}}">YT</a></li>
 	                                </ul>
 	                            </li>
 	                           
-	                            <li class="nxl-item"><a class="nxl-link" href="">Market Watch</a></li>
+	                            <li class="nxl-item nxl-hasmenu"><a class="nxl-link" href="{{route('founders.scientia_libraries.market_watch')}}">Market Watch</a></li>
 	                        </ul>
 	                    </li>
 	                    <li class="nxl-item nxl-hasmenu">
@@ -122,10 +122,10 @@
 	                            <span class="nxl-mtext">Core Services</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
 	                        </a>
 	                        <ul class="nxl-submenu">
-	                            <li class="nxl-item"><a class="nxl-link" href="">Pitch Deck Preparation</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Financial Modeling</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Market Research & Data</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Comprehensive</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.core_services.pitch_deck')}}">Pitch Deck Preparation</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.core_services.financial_modeling')}}">Financial Modeling</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.core_services.market_research')}}">Market Research & Data</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.core_services.comprehensive')}}">Comprehensive</a></li>
 	                        </ul>
 	                    </li>
 	                    <li class="nxl-item nxl-hasmenu">
@@ -134,11 +134,11 @@
 	                            <span class="nxl-mtext">Allied Services</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
 	                        </a>
 	                        <ul class="nxl-submenu">
-	                            <li class="nxl-item"><a class="nxl-link" href="">Legal</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Regulatory</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Patent & Copyright</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">IT & Development</a></li>
-	                            <li class="nxl-item"><a class="nxl-link" href="">Accouting & Taxation</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.allied_services.legal')}}">Legal</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.allied_services.regulatory')}}">Regulatory</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.allied_services.copyright')}}">Patent & Copyright</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.allied_services.development')}}">IT & Development</a></li>
+	                            <li class="nxl-item"><a class="nxl-link" href="{{route('founders.allied_services.accounting')}}">Accouting & Taxation</a></li>
 	                            
 	                        </ul>
 	                    </li>
