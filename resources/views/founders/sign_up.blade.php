@@ -189,22 +189,22 @@
 									<label>Incorporated Period<span class="text-danger">*</span></label>
 								</div>
 							</div>
-							<div class="wizard-form-input wizard-note-subject">
-								<div class="wizard-form-input select-option-area" id="incorporatedCountry">
+							<div class="wizard-form-input wizard-note-subject" id="incorporatedCountry">
+								<div class="wizard-form-input select-option-area">
 									<select name="incorporated_country" id="incorporated_country">
-										<option value="" disabled selected>Country of Incorporation/ will be incorporated</option>
-										<option>Afghanistan </option>
-										<option>Albania</option>
-										<option>Algeria</option>
-										<option>Andorra</option>
+										<option value="" disabled selected>Country of Incorporation/ will be incorporated*</option>
+										<option value="Afghanistan">Afghanistan </option>
+										<option value="Albania">Albania</option>
+										<option value="Algeria">Algeria</option>
+										<option value="Andorra">Andorra</option>
 										<option>Others</option>
 									</select>
 								</div>
 							</div>
-							<div class="wizard-form-input wizard-note-subject  ">
-								<div class="wizard-form-input select-option-area" id="companyStage">
+							<div class="wizard-form-input wizard-note-subject" id="companyStage">
+								<div class="wizard-form-input select-option-area">
 									<select name="company_stage" id="company_stage">
-										<option value="" disabled selected>What stage is the Company at?</option>
+										<option value="" disabled selected>What stage is the Company at?*</option>
 										<option>Ideation </option>
 										<option>Patent development</option>
 										<option>Prototype</option>
@@ -218,11 +218,22 @@
 							</div>
 							<div class="wizard-form-input position-relative form-group has-float-label" id="roundSize">
 								<input type="text" name="round_size" id="round_size" class="form-control" placeholder="Round Size*">
-								<label>Round Size<span class="text-danger">*</span></label>
+								<label>Round Size*<span class="text-danger">*</span></label>
 							</div>
-							<div class="wizard-form-input position-relative form-group has-float-label" id="roundSecured">
-								<input type="text" name="round_secured" id="round_secured" class="form-control" placeholder="What % of round is already secured">
-								<label>What % of round is already secured</label>
+							<div class="wizard-form-input wizard-note-subject">
+								<div class="wizard-form-input select-option-area" id="roundSecured">
+									<select name="round_secured" id="round_secured">
+										<option value="" disabled selected>What % of round is already secured</option>
+										<option value="0">0% </option>
+										<option value="10"><10%</option>
+										<option value="25"><25%</option>
+										<option value="40"><40%</option>
+										<option value="50"><50%</option>
+										<option value="60"><60%</option>
+										<option value="80"><80%</option>
+										<option value="100">100%</option>
+									</select>
+								</div>
 							</div>
 							<div class="wizard-form-input position-relative form-group has-float-label d-flex flex-column" id="projectDescription">
 								<input type="text" name="project_description" id="project_description" class="form-control" placeholder="Brief Description about your Project">
@@ -413,11 +424,11 @@
 							</div>
 
 							<!-- if-revenue-yes -->
-							<div class="d-flex flex-wrap gap-4 w-100" id="if_revenue_yes">
+							<div class="d-flex flex-wrap gap-4 w-100" id="if_revenue_yes" >
 								<div class="wizard-form-input full-width wizard-note-subject" id="revenueGrowth">
 									<div class="wizard-form-input full-width select-option-area" >
 										<select name="revenue_growth" id="revenue_growth">
-											<option value="" disabled selected>How fast is the Revenue growth MoM over the past 6 months?</option>
+											<option value="" disabled selected>How fast is the Revenue growth MoM over the past 6 months?*</option>
 											<option value="no">No Revenue Yet
 											</option>
 											<option value="10%">Less than 10%
@@ -436,7 +447,7 @@
 								<div class="wizard-form-input full-width wizard-note-subject" id="developmentPeriod">
 									<div class="wizard-form-input full-width select-option-area" >
 										<select name="development_period" id="development_period">
-											<option value="" disabled selected>What is the Product development period (Prototype/MVP)?</option>
+											<option value="" disabled selected>What is the Product development period (Prototype/MVP)?*</option>
 											<option value="roll_out">Ready to Launch/ Roll-out
 											</option>
 											<option value="<3"><3 months
@@ -453,7 +464,7 @@
 								<div class="wizard-form-input full-width wizard-note-subject" id="revenueExpected">
 									<div class="wizard-form-input full-width select-option-area" >
 										<select name="revenue_expected" id="revenue_expected">
-											<option value="" disabled selected>When is the Product likely to be launched and Revenue expected?</option>
+											<option value="" disabled selected>When is the Product likely to be launched and Revenue expected?*</option>
 											<option value="roll_out">Ready to Launch/ Roll-out
 											</option>
 											<option value="<3"><3 months

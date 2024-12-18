@@ -28,13 +28,13 @@
 				@if(Request::is('founders/*'))
 					<div class="multisteps-form__progress d-flex flex-row flex-lg-column align-self-center">
 						<span class="multisteps-form__progress-btn js-active" title="Basic Details"><i class="far fa-circle"></i><span>Basic Details</span></span>
-						<span class="multisteps-form__progress-btn" title="Company Dtails"><i class="far fa-circle"></i><span>Company Dtails</span></span>
+						<span class="multisteps-form__progress-btn" title="Company Dtails"><i class="far fa-circle"></i><span>Company Details</span></span>
 						<span class="multisteps-form__progress-btn" title="Founder Details"><i class="far fa-circle"></i><span>Founder Details</span></span>
 						<span class="multisteps-form__progress-btn" title="Revenue & Product Details"><i class="far fa-circle"></i><span>Revenue & Product Details</span></span>
 						<span class="multisteps-form__progress-btn" title="Completed"><i class="far fa-circle"></i><span>Completed </span></span>
 					</div>
 					<div class="step-progress float-end">
-						<span class="progress-status" id="progress-text">1 of 5 Completed</span>
+						<span class="progress-status">1 of 5 completed</span>
 						<div class="step-progress-bar">
 							<div class="progress">
 								<div class="progress-bar step-1"></div>
