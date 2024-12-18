@@ -12,6 +12,7 @@
     	<link rel="stylesheet" href="{{asset('public/assets/css/fontawesome-all.css')}}">
     	<link rel="stylesheet" href="{{asset('public/assets/css/style.css')}}">
     	<link rel="stylesheet" type="text/css" href="{{asset('public/assets/css/colors/switch.css')}}">
+    	<link rel="stylesheet" type="text/css" href="{{asset('public/assets/css/select.scss')}}" />
     	<link href="{{asset('public/assets/css/select2.min.css')}}" rel="stylesheet" />
     	<link rel="stylesheet" href="{{asset('public/assets/css/main.css')}}">
 
@@ -37,7 +38,7 @@
 						<span class="progress-status">1 of 5 completed</span>
 						<div class="step-progress-bar">
 							<div class="progress">
-								<div class="progress-bar step-1"></div>
+								<div class="progress-bar step-2"></div>
 							</div>
 						</div>
 					</div>
@@ -75,6 +76,7 @@
 		</div>
 
 		<!-- Script -->
+		
 		<script src="{{asset('public/assets/js/jquery-3.3.1.min.js')}}"></script>
     	<script src="{{asset('public/assets/js/popper.min.js')}}"></script>
     	<script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
@@ -82,8 +84,9 @@
     	<script src="{{asset('public/assets/js/main.js')}}"></script>
     	<script src="{{asset('public/assets/js/switch.js')}}"></script>
     	<script src="{{asset('public/assets/js/select2.min.js')}}"></script>
+    	<script src="{{asset('public/assets/js/select2-active.min.js')}}"></script>
+
 	    <script>
-	        
 	        $(document).ready(function() {
             	$('.js-example-basic-multiple').select2();
         	});
